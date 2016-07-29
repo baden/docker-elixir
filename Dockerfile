@@ -15,9 +15,5 @@ RUN mkdir /tmp/erlang-build && \
   rm -rf /tmp/erlang-build && \
   apt-get clean
 
-CMD ["bash"]
+CMD ["iex"]
 
-#
-# CMD ["erl"]
-
-# extra useful tools here: rebar & rebar3
